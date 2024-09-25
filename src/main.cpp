@@ -6,7 +6,7 @@ int secondsConverter = 1000000;                               //convert us to s 
 void blink()                                                  //builtin LED blink for half a second
 {
   digitalWrite(LED_BUILTIN,1); 
-  delay(500);                                                //keeping the LED on for half a second
+  delay(500);                                                 //keeping the LED on for half a second
   digitalWrite(LED_BUILTIN,0);
 }
 
